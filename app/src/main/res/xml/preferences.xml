@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.preference.SwitchPreferenceCompat
+        app:key="notifications"
+        app:title="Enable Notifications"
+        app:defaultValue="true" />
+
+    <androidx.preference.EditTextPreference
+        app:key="username"
+        app:title="Username"
+        app:dialogTitle="Enter your username" />
+
+</androidx.preference.PreferenceScreen>
