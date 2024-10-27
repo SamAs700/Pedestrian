@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nv_home:
                 break;
             case R.id.nv_profile:
-                Toast.makeText(this, "Profile selected", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(MainActivity.this, ProfileActivity.class));
                 break;
             case R.id.nv_settings:
                 startActivity(new Intent(MainActivity.this, SettingsActivity.class));
