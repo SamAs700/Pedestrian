@@ -44,8 +44,8 @@
         android:text="Edit Profile"
         android:layout_marginTop="16dp" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler_view_posts"
+    <ListView
+        android:id="@+id/list_view_posts"
         android:layout_width="381dp"
         android:layout_height="417dp"
         android:layout_below="@id/edit_profile_button"
